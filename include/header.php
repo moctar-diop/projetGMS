@@ -7,8 +7,29 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/css/bootstrap.css">
     <script src="css/js/bootstrap.js"></script>
+    <style>
+        .hi{
+            background-color: #080B3A;
+        }
+
+        ul>li{
+            color: #ffffff;
+        }
+        .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+    </style>
+
+    <!-- font google -->
+  <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 </head>
-<body class="fs-1">
+ <body class="fs-1">
+     <!--
     <header>
       
      
@@ -23,7 +44,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="../index.php">Home</a>
         </li>
         
         <li class="nav-item dropdown">
@@ -56,3 +77,28 @@
 </nav>
 
 </header>
+ -->
+
+    
+ <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-white text-decoration-none">
+<img src="image/logo.jpeg" alt="" height="35px">    
+    </a>
+
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Pricing</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
+      </ul>
+
+      <div class="col-md-3 text-end">
+        <button type="button" class="btn btn-outline-primary me-2">Login</button>
+        <button type="button" class="btn btn-primary">Sign-up</button>
+        <span class="material-symbols-outlined">
+login
+</span>
+        <img src="front/icon/login.svg" alt="" srcset="">
+      </div>
+    </header>
