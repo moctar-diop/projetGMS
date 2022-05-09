@@ -22,6 +22,9 @@
   'GRAD' 0,
   'opsz' 48
 }
+    *{
+      color: #ffffff;
+    }
     </style>
 
     <!-- font google -->
@@ -86,11 +89,11 @@
     </a>
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Pricing</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
+        <li><a href="#" class="nav-link px-2 link-danger">Home</a></li>
+        <li><a href="#" class="nav-link px-2 link-danger">Services</a></li>
+        <li><a href="#" class="nav-link px-2 link-danger">Teranga Etudes</a></li>
+        <li><a href="#" class="nav-link px-2 link-danger">FAQs</a></li>
+        <li><a href="#" class="nav-link px-2 link-danger">A propos de nous</a></li>
       </ul>
 
       <div class="col-md-3 text-end">

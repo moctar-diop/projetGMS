@@ -60,16 +60,16 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-       <img src="image/logo.jpeg" class="d-block w-100" alt="..."  height="800">
+       <img src="image/logo.jpeg" class="d-block mx-auto" alt="..."  height="400">
       <div class="carousel-caption d-none d-md-block">
         <h5>Groupe Management Solution</h5>
-        <p>SGénie Management Solution est un cabinet privé de conseil et d’orientation  pédagogique qui offre aux élèves, étudiants et professionnels des services de qualité, adaptés à leurs problématiques liées à leurs formations et métiers... <br>
+        <p >Génie Management Solution est un cabinet privé de conseil et d’orientation  pédagogique qui offre aux élèves, étudiants et professionnels des services de qualité, adaptés à leurs problématiques liées à leurs formations et métiers... <br>
         <a href="public/gmsview.php" class="btn btn-danger">Voir nos services</a>
 </p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="image/bourse.jpg" height="800" class="d-block w-100" alt="...">
+      <img src="image/bourse.jpg" height="400" class="d-block  mx-auto" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Teranga Etudes</h5>
         <p>Consiste à accueillir, informer et orienter les étudiants africains désireux de poursuivre leurs études au Sénégal.</p>
@@ -77,11 +77,11 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="image/logement.jpg" height="800" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Immobiliers</h5>
-        <p>De nos jours, trouver un logement à Dakar fait partie de l’une des problématiques les plus récurrentes pour les  étrangers notamment les étudiants. De ce fait, GENIE MANAGEMENT SOLUTION en partenariat avec des cabinets immobiliers vous facilitera à trouver un logement avant même votre arrivée.</p>
-        <a href="public/teranga.php" class="btn btn-danger">Voir les bourse disponible</a>
+      <img src="image/etude.png" height="400" class="d-block  mx-auto" alt="...">
+      <div class="carousel-caption d-none d-md-block bg-transparent text-dark">
+        <h5  class="bg-transparent text-danger">Formation</h5>
+        <p class="bg-transparent text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio et laboriosam, eos saepe, nemo at magni molestias debitis recusandae ratione distinctio rerum illo alias repellat sequi magnam cum, rem ex!.</p>
+        <a href="public/teranga.php" class="btn btn-danger">Voir les formations disponible</a>
 
       </div>
     </div>
@@ -96,6 +96,7 @@
   </button>
 </div>
 </section>
+<hr class="featurette-divider">
 
   <!-- Marketing messaging and featurettes
   ================================================== -->
@@ -107,43 +108,59 @@
   <div class="row">
 
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">
-          '7][W
-        </text></svg>
+      <img src="front/icon/accessibility.svg" alt="" class="rounded-circle mx-auto d-block bg-danger" width="140px" height="140px" >
       
         <h2>GENIE MANAGEMENT SOLUTION</h2>
         <p>Conseil et Accompagnement pedagogique Etant en partenariat avec les plus grandes écoles de formation privée de Dakar, nous nous chargerons de vous trouver une école de formation avec des enseignements de qualité. De plus, nos agents vous accompagneront pour vos démarches administratives afin de vous assurer une bonne intégration auprès de ses instituts.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <p><a class="btn btn-danger" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+      <img src="front/icon/school.svg" alt="" class="rounded-circle mx-auto d-block  bg-danger" width="140px" height="140px" >
 
         <h2>Teranga Etudes</h2>
         <p>Les formations proposees sont tailllees pour permettre le developpement et l'actualisation des connaissances professionnelles de nos clients au rythme des progres technologiques et du perfectionnements des methodes de travails.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <p><a class="btn btn-danger" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+      <img src="front/icon/home.svg" alt="" class="rounded-circle mx-auto d-block  bg-danger" width="140px" height="140px" >
 
-        <h2>Accompagnement auprès de son ambassade</h2>
-        <p>Une fois sur place, vous aurez peut-être besoin d’aller auprès de votre ambassade pour remplir certaines formalités administratives ; et dans ce cas, GENIE MANAGEMENT SOLUTION mettra à votre disposition un agent pour vous accompagner..</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <h2>Logement</h2>
+        <p>De nos jours, trouver un logement à Dakar fait partie de l’une des problématiques les plus récurrentes pour les  étrangers notamment les étudiants. De ce fait, GENIE MANAGEMENT SOLUTION en partenariat avec des cabinets immobiliers vous facilitera à trouver un logement avant même votre arrivée.</p>
+        
+        <p><a class="btn btn-danger" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
 
 </section>
+<hr class="featurette-divider">
 
 <section>
   <div class="container">
     <div class="row">
-    <h1>Temoignages</h1>
+    <div class="col-lg-4">
+    <h1 class="text-danger">Temoignages</h1>
+    <img src="" alt="">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ratione, eius atque sed laudantium quisquam delectus? A magnam veritatis error enim alias, vero, tempore repellendus molestiae recusandae, maxime vitae et!</p>
     </div>
-    <div class="row">
-      <h1>Contact</h1>
+    <div class="col-lg-4">
+      <h1 class="text-danger">Contact</h1>
+      <div class="card-body">
+        <h5 class="card-title">GENIE MANAGEMENT SOLUTION</h5>
+        <p class="card-text "><strong> Adresse:</strong> Grand Dakar, Immeuble Pharmacie de l’Emmanuel.<br>
+        <strong> BP : </strong> 17855 Dakar – Liberté (Sénégal) <br>
+        <strong> Tél Fixe : </strong> (00221) 33 824 21 26 / Mobile : 78 506 77 83 / 77 298 62 61 <br>
+
+        <strong> E-mail : </strong> geniemanagement21@gmail.com</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
     </div>
-    <div class="row">
-      <h1></h1>
+    <div class="col-lg-4">
+      <h1 class="text-danger">Ou ? nous trouver ? </h1>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.0878587997577!2d-17.45737328516566!3d14.707623289734338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec172c012788a4d%3A0x58fe25c4ee69c755!2sPharmacie%20de%20l&#39;Emmanuel!5e0!3m2!1sfr!2ssn!4v1651068121723!5m2!1sfr!2ssn" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+      
+    </div>
     </div>
   </div>
 </section>
@@ -157,7 +174,9 @@
   <!-- FOOTER -->
   <footer class="container">
     <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <p>&copy; Copyright 
+    <?php echo date("Y"); ?> 
+ Tous droits réservés.</p>&middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
 </main>
 
