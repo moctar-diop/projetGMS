@@ -1,16 +1,23 @@
-<?php include("include/header.php");?>
+<?php 
+include("include/header.php");
+//include("include/bootstrap.php");
+
+?>
 
 <!-- End Header -->
-
+<head>
+  <link rel="stylesheet" href="main/asset/vendor/boostrap/css/bootstrap.css">
+  <script src="main/asset/vendor/boostrap/js/bootstrap.js"></script>
+</head>
   <!-- ======= Hero Section ======= -->
-  <section id="hero">
+ <section id="hero">
     <div class="hero-container">
       <h3>Soyez les  <strong>bienvenus </strong></h3>
       <h1>We're Creative Agency</h1>
       <h2>We are team of talented designers making websites with Bootstrap</h2>
       <a href="#about" class="btn-get-started scrollto">Get Started</a>
     </div>
-  </section><!-- End Hero -->
+  </section> <!-- End Hero -->
 
   <main id="main">
 
@@ -19,28 +26,28 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>About</h2>
-          <h3>Learn More <span>About Us</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+          <h2>QUI SOMMES NOUS ?</h2>
+          <h3>ET  <span>QUE POUVONS-NOUS FAIRE POUR VOUS ?</span></h3>
+          <p>Génie Management Solution est un cabinet privé d’orientation pédagogique et professionnelle qui offre aux élèves, étudiants et professionnels des services de qualité, adaptés à leurs problématiques liées à leurs formations et métiers.
+Fort d’une expérience de cinq (05) ans, notre mission consiste à assister les jeunes afin de leurs permettre de monter un bon projet aussi bien pédagogique que professionnel.</p>
         </div>
 
         <div class="row content">
           <div class="col-lg-6">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+            CONTEXTE
+Conscients que le développement de l’Afrique ne se fera qu’avec et par les africains, la plupart des jeunes partent faire leurs études dans la sous-région afin de confronter leurs expertise et savoir-faire aux vraies problématiques de notre très cher continent.
+
+
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
+              <li><i class="ri-check-double-line"></i>CONSEIL & ACOMPAGNEMENT</li>
+              <li><i class="ri-check-double-line"></i> ETUDES AU SENEGAL</li>
               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+            <p> De ce fait, GENIE MANAGEMENT SOLUTION a mis en place un Programme d’accompagnement dénommé <a href="#portfolio"> TERANGA-ETUDES</a> qui consiste à accueillir, informer et orienter les étudiants africains désireux de poursuivre leurs études au Sénégal.
             </p>
             <a href="#" class="btn-learn-more">Learn More</a>
           </div>
@@ -63,7 +70,7 @@
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="">Formationm</a></h4>
+              <h4 class="title"><a href="">Formation</a></h4>
               <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
           </div>
@@ -100,7 +107,10 @@
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
       <div class="container">
-
+      <div class="section-title">
+          <h2>Formation GMS</h2>
+          
+        </div>
         <div class="row">
           <div class=" col-md-4 col-6 col-6">
             <div class="icon-box">
@@ -138,25 +148,159 @@
               <h3><a href="">Comptabilite PAIE</a></h3>
             </div>
           </div>
+          <div class=" col-md-4 col-6 mt-4">
+            <div class="icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2em" height="2.5em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"  style="color: #ffa76e;"><path fill="currentColor" d="m6 16.5l-3 2.94V11h3m5 3.66l-1.57-1.34L8 14.64V7h3m5 6l-3 3V3h3m2.81 9.81L17 11h5v5l-1.79-1.79L13 21.36l-3.47-3.02L5.75 22H3l6.47-6.34L13 18.64"/></svg>
+              <h3><a href="">Module |</a></h3>
+            </div>
+          </div>
+          <div class=" col-md-4 col-6 mt-4">
+            <div class="icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2em" height="2.5em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"  style="color: #ffa76e;"><path fill="currentColor" d="m6 16.5l-3 2.94V11h3m5 3.66l-1.57-1.34L8 14.64V7h3m5 6l-3 3V3h3m2.81 9.81L17 11h5v5l-1.79-1.79L13 21.36l-3.47-3.02L5.75 22H3l6.47-6.34L13 18.64"/></svg>
+              <h3><a href="">Module ||</a></h3>
+            </div>
+          </div>
+          <div class=" col-md-4 col-6 mt-4">
+            <div class="icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2em" height="2.5em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"  style="color: #ffa76e;"><path fill="currentColor" d="m6 16.5l-3 2.94V11h3m5 3.66l-1.57-1.34L8 14.64V7h3m5 6l-3 3V3h3m2.81 9.81L17 11h5v5l-1.79-1.79L13 21.36l-3.47-3.02L5.75 22H3l6.47-6.34L13 18.64"/></svg>
+              <h3><a href="">Module |||</a></h3>
+            </div>
+          </div>
         
         </div>
 
       </div>
     </section><!-- End Features Section -->
 
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
+    <!-- SLide GMS REalisation -->
+    <section>
+      <div class="container">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/img/gms-cover.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/gms0.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/bg-gms.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      </div>
+    </section>
+
+    <!-- end of slide  --> 
+    <section id="portfolio" class="faq">
       <div class="container">
 
-        <div class="text-center">
-          <h3>Call To Action</h3>
-          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a class="cta-btn" href="#">Call To Action</a>
+        <div class="section-title">
+          <h2>Teranga Etudes</h2>
+          <h3><span> Nos Offres</span></h3>
         </div>
 
-      </div>
-    </section><!-- End Cta Section -->
+        <ul class="faq-list">
 
+          <li>
+            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Accueil, information et Orientation <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+              Comme tout étranger venu d’un autre pays, nous avons toujours besoin des bonnes informations afin de s’adresser aux personnes ressources pour rendre notre séjour inoubliable. Pour ça, nous nous chargerons de vous accueillir, vous informer et vous orienter durant tout le processus pour une meilleure intégration.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Recherche d’école de formation <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+              Etant en partenariat avec les plus grandes écoles de formation privée de Dakar, nous nous chargerons de vous trouver une école de formation avec des enseignements de qualité. De plus, nos agents vous accompagneront pour vos démarches administratives afin de vous assurer une bonne intégration auprès de ses instituts.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Bourse d’étude <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+              <p>
+              GENIE MANAGEMENT SOLUTION, avec l’accompagnement de ses écoles partenaires, vous assistera pour l’obtention d’une bourse d’étude qui vous permettra d’alléger le coût de scolarité.
+         <span> NB : Les bourses d’études ne concernent pas toutes nos écoles partenaires.</span>
+              </p>
+            </div>
+          </li>
+
+          <!-- <li>
+            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+              </p>
+            </div>
+          </li> -->
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Reservation de logement<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+              <p>
+              De nos jours, trouver un logement  Dakar fait partie de l’une des problématiques les plus récurrentes pour les étrangers notamment les étudiants. De ce fait, GENIE MANAGEMENT SOLUTION en partenariat avec des cabinets immobiliers vous facilitera à trouver un logement avant même votre arrivée.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Accueil et accompagnement jusqu’à son logement<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+              <p>
+              Un agent de Génie Management Solution viendra vous chercher { partir de l’aéroport et vous accompagnement jusqu’{ votre domicile.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div data-bs-toggle="collapse" href="#faq7" class="collapsed question">Accompagnement pour l’inscription pédagogique<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq7" class="collapse" data-bs-parent=".faq-list">
+              <p>Un agent de GENIE MANAGEMENT SOLUTION vous accompagnera lors de votre inscription pédagogique { l’école pour mieux vous faciliter la tâche.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div data-bs-toggle="collapse" href="#faq8" class="collapsed question">Accompagnement auprès de son ambassade<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq8" class="collapse" data-bs-parent=".faq-list">
+              <p>
+              Une fois sur place, vous aurez peut-être besoin d’aller auprès de votre ambassade pour remplir certaines formalités administratives ; et dans ce cas, GENIE MANAGEMENT SOLUTION mettra à votre disposition un agent pour vous accompagner.
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+              </section>
+
+
+
+   
+   <!--  <div class="carousel-item">
+      <img src="assets/img/logo.jpeg" class="d-block w-100" alt="...">
+    </div> -->
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container">
@@ -164,16 +308,17 @@
         <div class="section-title">
           <h2>Teranga Etudes</h2>
           <h3>Check our <span>Portfolio</span></h3>
-          <p>Conscients que le développement de l’Afrique ne se fera qu’avec et par les africains, la plupart des jeunes partent faire leurs études dans la sous-région afin de confronter leurs expertise et savoir-faire aux vraies problématiques de notre très cher continent.De ce fait, GENIE MANAGEMENT SOLUTION a mis en place un Programme d’accompagnement dénommé TERANGA-ETUDES qui consiste à accueillir, informer et orienter les étudiants africains désireux de poursuivre leurs études au Sénégal.</p>
+          <p>Conscients que le développement de l’Afrique ne se fera qu’avec et par les africains, la plupart des jeunes partent faire leurs études dans la sous-région afin de confronter leurs expertise et savoir-faire aux vraies problématiques de notre très cher continent.De ce fait, GENIE MANAGEMENT SOLUTION a mis en place un Programme d’accompagnement dénomméa TERANGA-ETUDES qui consiste à accueillir, informer et orienter les étudiants africains désireux de poursuivre leurs études au Sénégal.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Presentation</li>
               <li data-filter=".filter-card">Ecole Partenaires</li>
               <li data-filter=".filter-web">Services</li>
+              <li data-filter=".filter-app">Logement</li>
+
             </ul>
           </div>
         </div>
@@ -275,146 +420,11 @@
       </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Pricing</h2>
-          <h3>Our Competing <span>Prices</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="box">
-              <h3>Free</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
-            <div class="box recommended">
-              <span class="recommended-badge">Recommended</span>
-              <h3>Business</h3>
-              <h4><sup>$</sup>19<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-            <div class="box">
-              <h3>Developer</h3>
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Pricing Section -->
 
     <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq">
-      <div class="container">
+  <!-- End F.A.Q Section -->
 
-        <div class="section-title">
-          <h2>F.A.Q</h2>
-          <h3>Frequently Asked <span>Questions</span></h3>
-        </div>
-
-        <ul class="faq-list">
-
-          <li>
-            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
-              </p>
-            </div>
-          </li>
-
-        </ul>
-
-      </div>
-    </section><!-- End F.A.Q Section -->
-
-    <!-- ======= Team Section ======= -->
+   
     <section id="team" class="team">
       <div class="container">
 
@@ -514,7 +524,7 @@
         </div>
 
         <div>
-          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d61742.32698325384!2d-17.47904540984411!3d14.718503270117662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m3!3m2!1d14.718505899999998!2d-17.4440257!4m0!5e0!3m2!1sen!2sus!4v1652099634714!5m2!1sen!2sus" width="100%" height="270" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
         <div class="row mt-5">
@@ -524,19 +534,19 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Immeuble Pharmacie de l'Emmanuel <br> Grand Dakar pres Garage Casamance</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>geniemanagement221@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <h4>Telephone:</h4>
+                <p>+221 77 298 62 61 / 78 506 77 83</p>
               </div>
 
             </div>
@@ -577,4 +587,4 @@
 
   </main><!-- End #main -->
 
-  <?php include("include/footer.php")?>
+  <?php // include("include/footer.php")?>

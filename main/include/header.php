@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/logo.jpeg" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -18,6 +18,9 @@
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap-grid.rtl.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap-grid.rtl.css.map" rel="stylesheet">
+
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
@@ -28,8 +31,11 @@
   <link href="assets/css/styles.css" rel="stylesheet">
 
 
-</head>
 
+</head>
+<style>
+
+</style>
 <body>
 
   <!-- ======= Header ======= -->
@@ -45,9 +51,9 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Teranga Etudes</a></li>
+          <li><a class="nav-link scrollto " href="teranga/index.php">Teranga Etudes</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a href="blog/blog.html">Blog</a></li>
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -71,4 +77,19 @@
       </nav><!-- .navbar -->
 
     </div>
+
+  
   </header>
+
+  <?php 
+  if (isset($_SESSION['flash'])) :?>
+  <?php foreach($_SESSION['flash'] as $type => $message ) :?>
+  <div class="alert alert-<?= $type ?>">
+  <? $message ?>
+  </div>
+<?php endforeach; ?>
+<?php unset($_SESSION['flash']) ?>
+
+<?php endif ?>
+
+
