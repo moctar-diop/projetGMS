@@ -9,8 +9,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
+  font-family: "Times New Roman", Times, serif;
+  color: #0a0241;
 }
 
 a {
@@ -24,7 +24,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /*--------------------------------------------------------------
@@ -76,12 +76,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header .logo a {
   color: #fff;
+  background-color: #070247;
 }
 #header .logo img {
   max-height: 40px;
 }
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(0, 0, 0, 0.9);
+  background: #070247;
   padding: 12px 0;
 }
 
@@ -100,6 +101,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   list-style: none;
   align-items: center;
+  background-color: #070247;
 }
 .navbar li {
   position: relative;
@@ -112,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: "Poppins", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   color: #fff;
   font-size: 15px;
   padding: 0 4px;
@@ -155,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #070247;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -227,7 +229,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(45, 37, 38, 0.9);
+  background: #070247;
   transition: 0.3s;
   z-index: 999;
 }
@@ -244,7 +246,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #070247;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -273,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: #070247;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 .navbar-mobile .dropdown ul li {
@@ -304,7 +306,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: #070247;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -325,7 +327,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 15px;
 }
 #hero h3 {
-  background: rgba(255, 255, 255, 0.1);
+  background: #070247;
   color: #fff;
   font-size: 26px;
   padding: 10px 30px;
@@ -346,7 +348,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 #hero .btn-get-started {
-  font-family: "Poppins", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 13px;
@@ -396,7 +398,7 @@ section {
 }
 
 .section-bg {
-  background-color: white;
+  background-color: #070247;
 }
 
 .section-title {
@@ -410,7 +412,7 @@ section {
   padding: 8px 20px;
   line-height: 1;
   margin: 0;
-  background: #fdeff2;
+  background: #070247;
   color: #e43c5c;
   display: inline-block;
   text-transform: uppercase;
@@ -464,7 +466,7 @@ section {
   margin-bottom: 0;
 }
 .about .content .btn-learn-more {
-  font-family: "Nunito", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
@@ -495,8 +497,8 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #fff;
-  box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.12);
+  background: #070247;
+  box-shadow: 2px 0 35px 0 #0a0241;
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
@@ -505,7 +507,7 @@ section {
 .services .icon-box::before {
   content: "";
   position: absolute;
-  background: #fdeff2;
+  background: #070247;
   right: 0;
   left: 0;
   bottom: 0;
@@ -514,7 +516,7 @@ section {
   z-index: -1;
 }
 .services .icon-box:hover::before {
-  background: #e43c5c;
+  background: #0a0241;
   top: 0;
   border-radius: 0px;
 }
@@ -558,7 +560,7 @@ section {
   align-items: center;
   padding: 20px;
   transition: ease-in-out 0.3s;
-  box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.12);
+  box-shadow: 2px 0 35px 0 #0a0241;
 }
 .features .icon-box i {
   font-size: 32px;
@@ -597,7 +599,7 @@ section {
   color: #fff;
 }
 .cta .cta-btn {
-  font-family: "Nunito", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -640,7 +642,7 @@ section {
   color: #444444;
   margin: 0 3px 10px 3px;
   transition: all ease-in-out 0.3s;
-  background: #ede9e9;
+  background: #070247;
   border-radius: 50px;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
@@ -718,7 +720,7 @@ section {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #070247;
   opacity: 1;
   border: 1px solid #e43c5c;
 }
@@ -761,7 +763,7 @@ section {
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 20px;
-  background: #f9f9f9;
+  background: #070247;
   text-align: center;
   border-radius: 8px;
   position: relative;
@@ -780,7 +782,7 @@ section {
   font-size: 42px;
   color: #e43c5c;
   font-weight: 500;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   margin-bottom: 20px;
 }
 .pricing .box h4 sup {
@@ -825,7 +827,7 @@ section {
   color: #e43c5c;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Nunito", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -852,7 +854,7 @@ section {
   z-index: 1;
   font-size: 13px;
   padding: 3px 25px 6px 25px;
-  background: #fce6ea;
+  background: #070247;
   color: #e43c5c;
   border-radius: 50px;
 }
@@ -921,7 +923,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #fff;
+  background: #070247;
   padding: 60px 0;
 }
 .team .member {
@@ -929,8 +931,8 @@ section {
   overflow: hidden;
   text-align: center;
   border-radius: 5px;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  background: #070247;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 .team .member .member-img {
   position: relative;
@@ -944,7 +946,7 @@ section {
   height: 40px;
   opacity: 0;
   transition: ease-in-out 0.3s;
-  background: rgba(255, 255, 255, 0.85);
+  background: #070247;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -997,7 +999,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #070247;
 }
 .contact .info i {
   font-size: 20px;
@@ -1005,7 +1007,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #fdeff2;
+  background: #070247;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1034,7 +1036,7 @@ section {
 }
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: #070247;
 }
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
@@ -1060,7 +1062,7 @@ section {
 }
 .contact .php-email-form .loading {
   display: none;
-  background: #fff;
+  background: #070247;
   text-align: center;
   padding: 15px;
 }
@@ -1123,7 +1125,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #f6f4f4;
+  background: #070247;
   margin-top: 67px;
 }
 @media (max-width: 992px) {
@@ -1264,11 +1266,11 @@ section {
   border-top: 1px solid #e6e6e6;
 }
 .blog .entry .entry-footer i {
-  color: #9a8487;
+  color: #fff;
   display: inline;
 }
 .blog .entry .entry-footer a {
-  color: #57484a;
+  color: #fff;
   transition: 0.3s;
 }
 .blog .entry .entry-footer a:hover {
@@ -1294,7 +1296,7 @@ section {
 }
 .blog .entry .entry-footer .tags li + li::before {
   padding-right: 6px;
-  color: #6c757d;
+  color: #fff;
   content: ",";
 }
 .blog .entry .entry-footer .share {
@@ -1320,13 +1322,13 @@ section {
   font-size: 22px;
   margin-bottom: 0px;
   padding: 0;
-  color: #493c3e;
+  color: #fff;
 }
 .blog .blog-author .social-links {
   margin: 0 10px 10px 0;
 }
 .blog .blog-author .social-links a {
-  color: rgba(73, 60, 62, 0.5);
+  color: #fff;
   margin-right: 5px;
 }
 .blog .blog-author p {
@@ -1355,7 +1357,7 @@ section {
 }
 .blog .blog-comments .comment h5 a {
   font-weight: bold;
-  color: #444444;
+  color: #fff;
   transition: 0.3s;
 }
 .blog .blog-comments .comment h5 a:hover {
@@ -1462,7 +1464,7 @@ section {
   margin-bottom: 30px;
 }
 .blog .sidebar .search-form form {
-  background: #fff;
+  background: #070247;
   border: 1px solid #ddd;
   padding: 3px 10px;
   position: relative;
@@ -1574,14 +1576,14 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #444444;
+  color: #f00909;
   font-size: 14px;
-  background: #f6f4f4;
+  background: #070247;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  background: rgb(14, 4, 80);
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
@@ -1597,13 +1599,13 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Nunito", sans-serif;
-  color: #777777;
+  font-family: "Times New Roman", Times, serif;
+  color: #ffffff ;
 }
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #444444;
+  color: #fff;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1630,7 +1632,7 @@ section {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+  color: #fff;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1645,7 +1647,7 @@ section {
 #footer .footer-newsletter h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #444444;
+  color: #fff;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1679,17 +1681,17 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #d01d3f;
+  background: greenyellow;
 }
 #footer .credits {
   padding-top: 5px;
   font-size: 13px;
-  color: #444444;
+  color: #fff;
 }
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #e43c5c;
+  background: #f30430;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
