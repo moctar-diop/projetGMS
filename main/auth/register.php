@@ -35,30 +35,21 @@ require_once '../include/bootstrap.php';
 
 
 
-    echo "<pre>";
-    var_dump($validator);
-    var_dump($validator->isValid());
-
-    echo "</pre";
-
-    echo "<pre>";
-    var_dump($_POST);
-
-    echo "</pre";
+    
 
         if($validator->isValid()){
 
         App::getAuth()->register($db,$_POST['username'],$_POST['password'],$_POST['email'],$_POST['telephone'],$_POST['pays']);
        // $auth->email($db,$_POST['email'],$_POST['username'],$user_id,$token);
         Session::getInstance()->setFlash('success',"un email de confirmation a ete envoyer pour valider votre inscription");
-        App::redirect("../index.php");
+        App::redirect("../auth/login.php");
         exit();
 }else{
   $errors = $validator->getErrors();
 }
 } 
  
-  
+include "../include/headert.php"; 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -68,91 +59,48 @@ require_once '../include/bootstrap.php';
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="../assets/style.css">
+
 
 <style>
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box}
 
-/* Full-width input fields */
-input[type=text], input[type=password], input[type=number]{
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-/* Set a style for all buttons */
-button {
-  background-color: #04AA6D;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-
-button:hover {
-  opacity:1;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
-}
-
-/* Add padding to container elements */
-.container {
-  padding: 16px;
-}
-
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-     width: 100%;
-  }
-}
 </style>
-<body>
+<body class="bodyy">
+
+
+<section>
+<div class="container">
+  <div>
+    
+  <?php if($errors != null):?>
 <div class="arlert alert-danger">
   <p>Vous n'avez pas rempli le formulaire correctement</p>
   <ul>
     <?php foreach($errors as $error):?>
       <li><?= $error;?></li>
       <?php endforeach ?>
+      <?php endif ?>
   </ul>
 </div>
-<form action="" method="post" style="border:1px solid #ccc">
+  </div>
+  <!-- Sign In Start -->
+  <div class="container-fluid d-flex flex-column">
+  <div class="row">
+         <img src="../assets/img/gms-cover.jpg"
+           alt="Login image" class="w-100 vh-80 pt-4" style="object-fit: cover; object-position: left;">
+       </div>
+             <div class="row  align-items-center justify-content-center">
+                 <div class="col-sm-6 text-light">
+                     <div class="bg-darkblue rounded p-4 p-sm-5 my-4 mx-3">
+                         <div class="text-center mb-3">
+                             <a href="index.html" class="text-decoration-none">
+                                 <h3 class="text-light"><i class="fa fa-user-edit me-2"></i>S'inscrire</h3>
+                             </a>
+                             
+                         </div>
+                        
+<form action="" method="post">
   <div class="container">
-    <h1>Sign Up</h1>
-    <p>Please fill in this form to create an account.</p>
     <hr>
     <label for="username"><b>username</b></label>
     <input type="text" placeholder="Enter username" name="username" >
@@ -186,6 +134,15 @@ button:hover {
     </div>
   </div>
 </form>
+                 </div>
+                 
+  </div>
+             
+    </div>
+ </div>
+</section>
+
+
 
 </body>
 </html>

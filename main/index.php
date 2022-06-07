@@ -1,13 +1,13 @@
 <?php 
-include("include/header.php");
+include("include/headert.php");
 //include("include/bootstrap.php");
-
 ?>
 
 <!-- End Header -->
 <head>
-  <link rel="stylesheet" href="main/asset/vendor/boostrap/css/bootstrap.css">
-  <script src="main/asset/vendor/boostrap/js/bootstrap.js"></script>
+  <link rel="stylesheet" href=assets/vendor/boostrap/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="main/assets/vendor/boostrap/js/bootstrap.js"></script>
 </head>
   <!-- ======= Hero Section ======= -->
  <section id="hero">
