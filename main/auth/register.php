@@ -139,7 +139,7 @@ require_once '../include/bootstrap.php';
               <label class="form-label" for="psw-repeat">Repeat Password</label>
               <input type="password" id="psw-repeat" class="form-control form-control-lg" placeholder="Repeat Password" name="password_confirm" />
             </div>
-            <p class="small mb-5 pb-lg-2">By creating an account you agree to our  <a class="text-muted" href="#">Terms & Privacy</a></p>
+            <p class="small mb-5 pb-lg-2">By creating an account you agree to our     <a class="text-muted" href="#">Terms & Privacy</a></p>
             <div class="pt-1 mb-4">
               <button class="btn btn-infos btn-lg btn-block" type="button">Cancel</button>
               <button class="btn btn-infos btn-lg btn-block" type="submit">Sign Up</button>

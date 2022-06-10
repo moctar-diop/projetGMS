@@ -1,51 +1,129 @@
 <?php 
     require('db.php');
 
-    $sql = 'SELECT * FROM gms221';
-    
-    $preparation = $connexion->prepare($sql);
-
-    $preparation->execute();
-
-    $customer = $preparation->fetchAll(PDO::FETCH_OBJ);
 
 ?>
 <?php include("include/header.php");?>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GMS</title>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-<!-- End Header -->
-   
-  <!-- Carousel -->
-<!--<div id="demo" class="carousel slide" data-bs-ride="carousel">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style1.css" rel="stylesheet">
+  <!----------style----------->
+  <style>
+    /*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("assets/img/accueilgms.jpg") top center;
+    background-size: contain;
+    position: relative;
+  }
+#hero:before {
+    content:"";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 
-<!-- Indicators/dots -->
-<!--<div class="carousel-indicators">
-  <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-  <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-  <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-</div>-->
-
-<!-- The slideshow/carousel -->
-<!--<div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="assets/img/gms.jpg" alt="#" class="d-block" style="width:100%">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/img/servicesgms.jpg" alt="#" class="d-block" style="width:100%">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/img/gmsadmin.jpeg" alt="#" class="d-block" style="width:100%">
-    </div>
-  </div>-->
-
-<!-- Left and right controls/icons -->
-<!--<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-  <span class="carousel-control-prev-icon"></span>
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-  <span class="carousel-control-next-icon"></span>
-</button>
-</div>-->
-
+#hero .hero-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 25px;
+}
+#hero h3 {
+    background: rgba(255, 255, 255, 0.1);
+    color: #f1f1f1;
+    font-size: 30px;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+#hero h1  {
+    margin: 0 0 10px 0;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #fff;
+}
+#hero h2 {
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+#hero .btn-get-started {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 30px 10px 30ps;
+    border-radius: 50px;
+    transition: 0.5s;
+    border: 2px solid #fff;
+    color: #f1f1f1;
+    text-decoration: none;
+    background: #e43c5c;
+}
+#hero .btn-get-started:hover {
+    background: #fff;
+    border: 2px solid #e43c5c;
+    color: #e43c5c;
+}
+@media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+  @media (max-width: 768px) {
+    #hero h3 {
+      font-size: 22px;
+    }
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    #hero h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  }
+  @media (max-height: 500px) {
+    #hero {
+      height: 150vh;
+    }
+  }
+  </style>
+</head>
+<body>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
@@ -218,7 +296,7 @@
 <!-- The slideshow/carousel -->
 <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/img/gms.jpg" alt="#" class="d-block" style="width:100%">
+      <img src="assets/img/accueilgms.jpg" alt="#" class="d-block" style="width:100%">
     </div>
     <div class="carousel-item">
       <img src="assets/img/servicesgms.jpg" alt="#" class="d-block" style="width:100%">
@@ -248,8 +326,6 @@
           <p> Génie Management Solution est un cabinet privé de conseil et d’orientation  pédagogique qui offre aux élèves, étudiants et professionnels des services de qualité, adaptés à leurs problématiques liées à leurs formations et métiers. Fort d’une expérience de cinq (05) ans, notre mission consiste à assister les jeunes afin de leurs permettre de monter un bon projet aussi bien pédagogique que professionnel.</p>
           <h3>Contexte du projet <span>TERANGA-ETUDES</span></h3>
           <p>Conscients que le développement de l’Afrique ne se fera qu’avec et par les africains, la plupart des jeunes partent faire leurs études dans la sous-région afin de confronter leurs expertise et savoir-faire aux vraies problématiques de notre très cher continent.De ce fait, GENIE MANAGEMENT SOLUTION a mis en place un Programme d’accompagnement dénommé TERANGA-ETUDES qui consiste à accueillir, informer et orienter les étudiants africains désireux de poursuivre leurs études au Sénégal.</p>
-          <h3> <span>OBJECTIFS</span></h3>
-          <p> ***Accueillir, informer et orienter ; <br>***Permettre à chaque étudiant (e)  de trouver une bonne école et faire le bon choix de formation répondant à son profil ;<br>***Trouver un logement pour chaque étudiant qui le désire ;</p>
         </div>
         </div>
          <!-- ======= F.A.Q Section ======= -->
@@ -337,7 +413,7 @@ NB : Les bourses d’études ne concernent pas toutes nos écoles partenaires.
 
     </section><!-- End F.A.Q Section -->
 
-        <div class="row">
+     <!--   <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
@@ -346,28 +422,7 @@ NB : Les bourses d’études ne concernent pas toutes nos écoles partenaires.
               <li data-filter=".filter-web">Services</li>
             </ul>
           </div>
-        </div>
-        <div class="card-group">
-  <div class="card">
-    <img src="assets/img/logo-unipro.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
-    </div>
-  </div>
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
-    </div>
-  </div>
+        
   <div class="card">
     <img src="..." class="card-img-top" alt="...">
     <div class="card-body">
@@ -393,7 +448,7 @@ NB : Les bourses d’études ne concernent pas toutes nos écoles partenaires.
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/flygms2.jpg" class="img-fluid" alt="">
+            <img src="assets/img/.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>CEFAS</h4>
               <p>Web</p>
@@ -547,7 +602,7 @@ NB : Les bourses d’études ne concernent pas toutes nos écoles partenaires.
     <!-- End Pricing Section -->
 33
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
+    <!--<section id="team" class="team">
       <div class="container">
 
         <div class="section-title">
@@ -636,7 +691,7 @@ NB : Les bourses d’études ne concernent pas toutes nos écoles partenaires.
     </section><!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <!--<section id="contact" class="contact">
       <div class="container">
 
         <div class="section-title">
@@ -710,3 +765,5 @@ NB : Les bourses d’études ne concernent pas toutes nos écoles partenaires.
   </main><!-- End #main -->
 
   <?php include("include/footer.php")?>
+  </body>
+</html>

@@ -1,52 +1,125 @@
-<?php 
-    require('db.php');
 
-    $sql = 'SELECT * FROM gms221';
-    
-    $preparation = $connexion->prepare($sql);
+<?php include("include/header.php");?>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Vendor CSS Files -->
+   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    $preparation->execute();
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style1.css" rel="stylesheet">
+  <!----------style----------->
+  <style>
+    /*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("assets/img/teranga.jpg") top center;
+    background-size: contain;
+    position: relative;
+  }
+#hero:before {
+    content:"";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 
-    $customer = $preparation->fetchAll(PDO::FETCH_OBJ);
-
-?>
-<?php include("include/headerteranga.php");?>
-
+#hero .hero-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 25px;
+}
+#hero h3 {
+    background: rgba(255, 255, 255, 0.1);
+    color: #f1f1f1;
+    font-size: 30px;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+#hero h1  {
+    margin: 0 0 10px 0;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #fff;
+}
+#hero h2 {
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+#hero .btn-get-started {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 30px 10px 30ps;
+    border-radius: 50px;
+    transition: 0.5s;
+    border: 2px solid #fff;
+    color: #f1f1f1;
+    text-decoration: none;
+    background: #e43c5c;
+}
+#hero .btn-get-started:hover {
+    background: #fff;
+    border: 2px solid #e43c5c;
+    color: #e43c5c;
+}
+@media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+  @media (max-width: 768px) {
+    #hero h3 {
+      font-size: 22px;
+    }
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    #hero h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  }
+  @media (max-height: 500px) {
+    #hero {
+      height: 150vh;
+    }
+  } 
+  </style>
+</head>
+<body>
 <!-- End Header -->
-   
-  <!-- Carousel -->
-<!--<div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-<!-- Indicators/dots -->
-<!--<div class="carousel-indicators">
-  <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-  <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-  <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-</div>-->
-
-<!-- The slideshow/carousel -->
-<!--<div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="assets/img/gms.jpg" alt="#" class="d-block" style="width:100%">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/img/servicesgms.jpg" alt="#" class="d-block" style="width:100%">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/img/gmsadmin.jpeg" alt="#" class="d-block" style="width:100%">
-    </div>
-  </div>-->
-
-<!-- Left and right controls/icons -->
-<!--<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-  <span class="carousel-control-prev-icon"></span>
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-  <span class="carousel-control-next-icon"></span>
-</button>
-</div>-->
-
-
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container">
@@ -57,6 +130,103 @@
     </div>
   </section>
   <!-- End Hero -->
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>TERANGA-ETUDES</h2>
+          <h3>QUI SOMMES NOUS ET QUE POUVONS-NOUS FAIRE POUR VOUS ? <br>
+          <br><span>CONSEIL & ACOMPAGNEMENT ETUDES AU SENEGAL</span></h3>
+          <p> Génie Management Solution est un cabinet privé de conseil et d’orientation  pédagogique qui offre aux élèves, étudiants et professionnels des services de qualité, adaptés à leurs problématiques liées à leurs formations et métiers. Fort d’une expérience de cinq (05) ans, notre mission consiste à assister les jeunes afin de leurs permettre de monter un bon projet aussi bien pédagogique que professionnel.</p>
+          <h3>Contexte du projet <span>TERANGA-ETUDES</span></h3>
+          <p>Conscients que le développement de l’Afrique ne se fera qu’avec et par les africains, la plupart des jeunes partent faire leurs études dans la sous-région afin de confronter leurs expertise et savoir-faire aux vraies problématiques de notre très cher continent.De ce fait, GENIE MANAGEMENT SOLUTION a mis en place un Programme d’accompagnement dénommé TERANGA-ETUDES qui consiste à accueillir, informer et orienter les étudiants africains désireux de poursuivre leurs études au Sénégal.</p>
+        </div>
+        </div>
+         <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>SERVICES</h2>
+          <h3>les services de <span>TERANGA-ETUDES</span></h3>
+        </div>
+
+        <ul class="faq-list">
+
+          <li>
+            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Accueil, information et Orientation <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+              Comme tout étranger venu d’un autre pays, nous avons toujours besoin des bonnes informations afin de s’adresser aux personnes ressources pour rendre notre séjour inoubliable. Pour ça, nous nous chargerons de vous accueillir, vous informer et vous orienter durant tout le processus pour une meilleure intégration.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Recherche  d’école de formation <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+              Etant en partenariat avec les plus grandes écoles de formation privée de Dakar, nous nous chargerons de vous trouver une école de formation avec des enseignements de qualité. De plus, nos agents vous accompagneront pour vos démarches administratives afin de vous assurer une bonne intégration auprès de ses instituts.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Bourse d’étude <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+              <p>
+              GENIE MANAGEMENT SOLUTION, avec l’accompagnement de ses écoles partenaires, vous assistera pour l’obtention d’une bourse d’étude qui vous permettra d’alléger le coût de scolarité.
+NB : Les bourses d’études ne concernent pas toutes nos écoles partenaires.  
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Recherche de logement<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+              <p>
+              De nos jours, trouver un logement à Dakar fait partie de l’une des problématiques les plus récurrentes pour les  étrangers notamment les étudiants. De ce fait, GENIE MANAGEMENT SOLUTION en partenariat avec des cabinets immobiliers vous facilitera à trouver un logement avant même votre arrivée.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Accueil et accompagnement jusqu’à son logement <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                
+              Un agent de Génie Management Solution viendra vous chercher à partir de l’aéroport et vous accompagnement jusqu’à votre domicile.
+
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Accompagnement pour l’inscription pédagogique <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+              <p>
+              Un agent de GENIE MANAGEMENT SOLUTION vous accompagnera lors de votre inscription pédagogique à l’école pour mieux vous faciliter la tâche.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Accompagnement auprès de son ambassade <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+              <p>
+              Une fois sur place, vous aurez peut-être besoin d’aller auprès de votre ambassade pour remplir certaines formalités administratives ; et dans ce cas, GENIE MANAGEMENT SOLUTION mettra à votre disposition un agent pour vous accompagner.
+              </p>
+            </div>
+          </li>
+
+          
+
+        </ul>
+
+      </div>
+
+
+    </section><!-- End F.A.Q Section -->
 
   <main id="main">
 
@@ -83,10 +253,21 @@
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
+          <div class="row content">
+          <div class="col-lg-6">
+            <p>
+            OBJECTIFS
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i>Accueillir, informer et orienter ;</li>
+              <li><i class="ri-check-double-line"></i>Permettre à chaque étudiant (e)  de trouver une bonne école et faire le bon choix de formation répondant à son profil ;</li>
+              <li><i class="ri-check-double-line"></i>Trouver un logement pour chaque étudiant qui le désire ;</li>
+            </ul>
             <p>
             Commencez votre procédure aujourd’hui pour finir à temps pour la rentrée prochaine.
             </p>
             <a href="#" class="btn-learn-more">Learn More</a>
+          </div>
           </div>
         </div>
 
@@ -208,16 +389,14 @@
         
         </div>
 
-      </div>
+      </div>-->
     </section><!-- End Features Section -->
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container">
     <section id="faq" class="faq">
       <div class="container">
-
-
-
+        
     </section><!-- End F.A.Q Section -->
 
         <div class="row">
@@ -234,7 +413,7 @@
         <div class="row portfolio-container">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/logo-unipro.png" class="img-fluid" alt="">
+            <img src="assets/img/ecole/logo-unipro.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>UNIPRO</h4>
               <p>App</p>
@@ -244,7 +423,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/CEFAS.jpg" class="img-fluid" alt="">
+            <img src="assets/img/ecole/CEFAS.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>CEFAS</h4>
               <p>Web</p>
@@ -254,7 +433,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/ENSUP.jpg" class="img-fluid" alt="">
+            <img src="assets/img/ecole/ENSUP.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>ENSUP AFRIQUE</h4>
               <p>App</p>
@@ -264,7 +443,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/ozana.jpg" class="img-fluid" alt="">
+            <img src="assets/img/ecole/ozana.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Groupe OZANA </h4>
               <p>Card</p>
@@ -274,7 +453,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/HECM.jng" class="img-fluid" alt="">
+            <img src="assets/img/ecole/HECM.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>HECM</h4>
               <p>Web</p>
@@ -398,7 +577,7 @@
     <!-- End Pricing Section -->
 33
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
+    <!--<section id="team" class="team">
       <div class="container">
 
         <div class="section-title">
@@ -484,10 +663,10 @@
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section>--- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <!--<section id="contact" class="contact">
       <div class="container">
 
         <div class="section-title">
@@ -556,8 +735,9 @@
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
-
+    </section>-- End Contact Section -->
   </main><!-- End #main -->
 
   <?php include("include/footer.php")?>
+  </body>
+</html>
