@@ -101,15 +101,22 @@ class Auth{
             }
         }
     }
-    public function login($db,$username, $password, $remember = false ){
-            $user = $db->query('SELECT * FROM user WHERE username = :username' ,['username'=> $username])->fetch();
-            if(password_verify($password, $user->password)){
-                $this->connect($user);
-                if($remember){
-                 $this->remember($db,$user->id);
+    public function login($db,$username, $password, $type = false ){
+            $type = $_POST['type'];
+            if($type =='user' ){
+                $user = $db->query('SELECT * FROM user WHERE username = :username' ,['username'=> $username])->fetch();
+                if(password_verify($password, $user->password)){
+                    $this->connect($user);
+                    App::redirect('account.php');
                 }
-                return $user;
+            }elseif($type =='admin'){
+                $user = $db->query('SELECT * FROM admin WHERE email = :email' ,['email'=> $username])->fetch();
+                if($user){
+                    $this->connect($user);
+                    App::redirect('../admin/index.php');
+                }
             }
+           
             return false;    
         }
     public function remember($db,$user_id){
@@ -118,7 +125,6 @@ class Auth{
         setcookie('remember', $user_id). '==' . $remember_token . sha1($user_id . 'ratonvaleurs', time() + 60 * 60 * 24 * 7);
 
     } 
-
     public function logout(){
         setcookie('remember',NULL,-1);
         $this->session->delete('auth');

@@ -1,11 +1,13 @@
 <?php
 require '../include/bootstrap.php';
-
+//session_start();
 //App::getAuth()->restrict();
+Session::getInstance();
+var_dump($_SESSION);
+
 
 include "../include/headert.php";
 ?>
-
 <div class="container">
     <p>WELCOME !</p>
     <a class="btn btn-danger" href="logout.php">Logout</a>

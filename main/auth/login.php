@@ -11,13 +11,14 @@ if($auth->user()){
 }
 
 if(!empty($_POST) && !empty($_POST['username']) && !empty($_POST["password"])){
-  $user = $auth->login($db,$_POST['username'],$_POST["password"],isset($_POST['remember']));
+  $user = $auth->login($db,$_POST['username'],$_POST["password"],isset($_POST['type']));
   $session= Session::getInstance(); 
         if($user){
             $session->setFlash('success', "Vous etes maintenant connecte");
-            App::redirect('account.php');
+           // App::redirect('account.php');
           } else{
             $session->setFlash('danger',"identifiant ou mot de passe incorrecte");
+            var_dump($_POST);
 
           }
       }else{
@@ -79,16 +80,16 @@ include "../include/headert.php";
                          </div>
                          <form action="" method="post">
                          <div class="form-floating mb-3 text-dark">
-                             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                             <input type="text" class="form-control" id="floatingInput" name='username' placeholder="name@example.com">
                              <label for="floatingInput">Email address</label>
                          </div>
                          <div class="form-floating mb-4 text-dark">
-                             <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                             <input type="password" class="form-control" id="floatingPassword" name='password' placeholder="Password">
                              <label for="floatingPassword">Password</label>
                          </div>
                          <div class="form-outline mb-4">
                              <label for="typeUser" class="form-label">Account Type:</label>
-                             <select name="typeUser" id="typeUser" class="form-select" aria-label="Default select example">
+                             <select name="type" id="typeUser" class="form-select" aria-label="Default select example">
                               <option value="user">user</option>
                               <option value="admin">admin</option>
                               </select>

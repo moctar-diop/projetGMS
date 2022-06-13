@@ -22,6 +22,15 @@ class requette extends Auth{
         return $user;
       
     }
+
+    static function sendmessage($db,$objet,$message,$id)
+    {
+      //$idu= $db->query("SELECT id FROM user WHERE id = $id")->fetch();
+      //var_dump($idu->id);
+      $db->query("INSERT INTO message SET objet = ?, message = ?, id_user = ?",[$objet,$message,$id]);
+    }
+  
 }
+
 
 ?>
