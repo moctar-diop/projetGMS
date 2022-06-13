@@ -143,28 +143,27 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>About</h2>
-          <h3>Learn More <span>About Us</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+          <h2>QUI SOMMES NOUS ?</h2>
+          <h3>ET  <span>QUE POUVONS-NOUS FAIRE POUR VOUS ?</span></h3>
+          <p>Génie Management Solution est un cabinet privé d’orientation pédagogique et professionnelle qui offre aux élèves, étudiants et professionnels des services de qualité, adaptés à leurs problématiques liées à leurs formations et métiers.
+Fort d’une expérience de cinq (05) ans, notre mission consiste à assister les jeunes afin de leurs permettre de monter un bon projet aussi bien pédagogique que professionnel.</p>
         </div>
 
         <div class="row content">
           <div class="col-lg-6">
+            <h3>CONTEXTE</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+            Conscients que le développement de l’Afrique ne se fera qu’avec et par les africains, la plupart des jeunes partent faire leurs études dans la sous-région afin de confronter leurs expertise et savoir-faire aux vraies problématiques de notre très cher continent.
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+              <li><i class="ri-check-double-line"></i>Accueillir, informer et orienter ;</li>
+              <li><i class="ri-check-double-line"></i>Permettre à chaque étudiant (e)  de trouver une bonne école et faire le bon choix de formation répondant à son profil ;</li>
+              <li><i class="ri-check-double-line"></i>Trouver un logement pour chaque étudiant qui le désire ;</li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+            De ce fait, GENIE MANAGEMENT SOLUTION a mis en place un Programme d’accompagnement dénommé <a href="teranga.php"> TERANGA-ETUDES</a> qui consiste à accueillir, informer et orienter les étudiants africains désireux de poursuivre leurs études au Sénégal.
             </p>
             <a href="#" class="btn-learn-more">Learn More</a>
           </div>
@@ -270,7 +269,7 @@
       </div>
     </section><!-- End Features Section -->
 
-    <!-- ======= Cta Section ======= -->
+   <!-- ======= Cta Section ======= -->
     <!--<section id="cta" class="cta">
       <div class="container">
 
@@ -284,17 +283,17 @@
     </section>-->
     <!-- End Cta Section -->
     <!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
+<!--<div id="demo" class="carousel slide" data-bs-ride="carousel">
 
 <!-- Indicators/dots -->
-<div class="carousel-indicators">
+<!--<div class="carousel-indicators">
   <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
   <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
   <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-</div>
+</div>-->
 
 <!-- The slideshow/carousel -->
-<div class="carousel-inner">
+<!--<div class="carousel-inner">
     <div class="carousel-item active">
       <img src="assets/img/accueilgms.jpg" alt="#" class="d-block" style="width:100%">
     </div>
@@ -304,32 +303,45 @@
     <div class="carousel-item">
       <img src="assets/img/gmsadmin.jpeg" alt="#" class="d-block" style="width:100%">
     </div>
-  </div>
+  </div>-->
 
 <!-- Left and right controls/icons -->
-<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+<!--<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
   <span class="carousel-control-prev-icon"></span>
 </button>
 <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
   <span class="carousel-control-next-icon"></span>
 </button>
-</div>
+</div>-->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container">
 
         <div class="section-title">
-          <h2>TERANGA-ETUDES</h2>
-          <h3>QUI SOMMES NOUS ET QUE POUVONS-NOUS FAIRE POUR VOUS ? <br>
-          <br><span>CONSEIL & ACOMPAGNEMENT ETUDES AU SENEGAL</span></h3>
-          <p> Génie Management Solution est un cabinet privé de conseil et d’orientation  pédagogique qui offre aux élèves, étudiants et professionnels des services de qualité, adaptés à leurs problématiques liées à leurs formations et métiers. Fort d’une expérience de cinq (05) ans, notre mission consiste à assister les jeunes afin de leurs permettre de monter un bon projet aussi bien pédagogique que professionnel.</p>
-          <h3>Contexte du projet <span>TERANGA-ETUDES</span></h3>
-          <p>Conscients que le développement de l’Afrique ne se fera qu’avec et par les africains, la plupart des jeunes partent faire leurs études dans la sous-région afin de confronter leurs expertise et savoir-faire aux vraies problématiques de notre très cher continent.De ce fait, GENIE MANAGEMENT SOLUTION a mis en place un Programme d’accompagnement dénommé TERANGA-ETUDES qui consiste à accueillir, informer et orienter les étudiants africains désireux de poursuivre leurs études au Sénégal.</p>
+          <h2>IMMIGRATION CANADA</h2>
+          <h3>TRAVAILLEURS  <br>
+          <br><span>CONDITIONS D'ADMISSIONS</span></h3>
+          <p> Vous souhaitez immigrer au Canada en tant que travailleur, le programme d’entré express est un excellent moyen d’y parvenir, sans doute le plus rapide. Tout ce que vous avez à faire c’est de vous assurer de remplir les conditions fixées par  le gouvernement fédéral. Ces conditions sont basées sur l’âge, le niveau de scolarité, le nombre d’année d’expérience professionnelle, l’adaptabilité que vous ayez une famille ou non, l’offre d’emploi et les compétences linguistiques. Si vous remplissez les critères pour le premier niveau décrit qui est l’éligibilité, dans ce cas-là, vous pourrez être inscrit dans le bassin de sélection du programme d’entré express et une fois que vous avez été sélectionné, la procédure ne prend que 06 mois. Si vous souhaitez entamer votre procédure,  nous vous proposons de nous rencontrer afin d’avoir tous les éléments en rapport avec l’entré express au Canada.</p>
+         <!-- <h3>Contexte du projet <span>TERANGA-ETUDES</span></h3>-->
+          <h3>COMMERCANTS  <br>
+          <br><span>CONDITIONS D'ADMISSIONS</span></h3>
+          <p>Si vous êtes et que vous avez les documents prouvant votre activité, vous pourriez demander un visa visiteur ou touristique au Canada qui et un visa renouvelable et qui vous permettra de  d’exercer librement et en toute légalité vos activités au Canada. 
+Pour plus de renseignement veuillez prendre rendez-vous avec un de nos agents. 
+L’âge minimum demandé est entre 20 et 29 ans. Si votre âge se trouve dans cet intervalle, vous avez le maximum de points.29 ans jusqu’à 40 vous avez des points mais plus dépasse 29 ans, plus vos points diminuent. Si vous avez moins de 20 ans, vous n’avez pas de points. Si vous avez plus de 43 ans, vous n’avez aussi aucun point. 
+Pour le niveau de scolarité, il n’y a de niveau minimum requis mais nous tenons en compte le deuxième niveau de sélection (la première c’est par rapport à l’éligibilité), vous devez avoir au moins le niveau licence.
+Pour la compétence linguistique, c’est le test de français qu’il faut faire à l’institut français TEF CANADA.
+Pour le nombre d’années d’expérience, le minimum c’est un an. 
+L’adaptabilité c’est presque facultatif. Ça n’empêche d’être éligible mais si vous l’avez, vous augmentez vos points de même que l’offre d’emploi.
+Si vous avez 40 ans avec le niveau licence, vous avez très peu de chance d’être sélectionné pour le programme entré express.  Si vous avez plus de 35 ans et que vous n’avez pas le niveau de master, ça va être très difficile d’être sélectionné même si vous avez une bonne compétence linguistique. Avec 35 ans le mieux c’est d’avoir 3 ans d’expériences professionnelles.</p>
+          <h3>LES FRAIS</h3>
+          <P> 115 000 pour frais d’équivalence de diplôme au niveau du wes (World Education Service)
+100 000 pour le test de français au niveau de l’institut français TEF CANADA
+Après avoir obtenu le rapport d’équivalence et le résultat du test de français, c’est à partir de ce moment qu’on peut l’inscrire dans le bassin d’entré express (frais extra honoraires). Si on vous envoie l’IPD (Invitation à Présenter une Demande), vous devez payer la biométrie (montant à rechercher). Pour le compte bancaire, le gouvernement fédéral vous demandera d’avoir au minimum 12 669 dollars à l’époque c’est ce qu’on exigeait. Maintenant, ça était modifié légèrement avec à peu 12 600 (et quelque) (5 à 6 millions).</P>
         </div>
         </div>
          <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq">
+   <!-- <section id="faq" class="faq">
       <div class="container">
 
         <div class="section-title">
@@ -411,7 +423,7 @@ NB : Les bourses d’études ne concernent pas toutes nos écoles partenaires.
       </div>
 
 
-    </section><!-- End F.A.Q Section -->
+    </section>End F.A.Q Section-->
 
      <!--   <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
