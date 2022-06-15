@@ -163,31 +163,9 @@
 
         <div class="row mt-5">
 
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Immeuble Pharmacie de l'Emmanuel <br> Grand Dakar pres Garage Casamance</p>
-              </div>
 
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>geniemanagement221@gmail.com</p>
-              </div>
 
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Telephone:</h4>
-                <p>+221 77 298 62 61 / 78 506 77 83</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
+          <div class="col">
 
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <!-- <div class="row">
@@ -198,6 +176,9 @@
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                 </div>
               </div> -->
+              <div class="form-group mt-3">
+                <input type="email" class="form-control" name="email" id="email" placeholder="email" required>
+              </div>
               <div class="form-group mt-3">
                 <input type="text" class="form-control" name="objet" id="subject" placeholder="Subject" required>
               </div>
@@ -228,11 +209,11 @@
       <div class="col-lg-3 col-md-6 footer-contact">
         <h3>Tempo</h3>
         <p>
-          A108 Adam Street <br>
-          New York, NY 535022<br>
-          United States <br><br>
-          <strong>Phone:</strong> +1 5589 55488 55<br>
-          <strong>Email:</strong> info@example.com<br>
+        Immeuble Pharmacie de l'Emmanuel <br>
+        Grand Dakar pres Garage Casamance<br>
+        Senegal<br><br>
+          <strong>Phone:</strong>+221 77 298 62 61 / 78 506 77 83<br>
+          <strong>Email:</strong>geniemanagement221@gmail.com<br>
         </p>
       </div>
 

@@ -4,7 +4,7 @@ include "../include/bootstrap.php";
 
 $auth = App::getAuth();
 $db = App::getDatabase();
-$auth->connectFromCookie($db);
+//$auth->connectFromCookie($db);
 
 if($auth->user()){
   App::redirect('account.php');
@@ -12,7 +12,7 @@ if($auth->user()){
 
 if(!empty($_POST) && !empty($_POST['username']) && !empty($_POST["password"])){
   $user = $auth->login($db,$_POST['username'],$_POST["password"],isset($_POST['type']));
-  $session= Session::getInstance(); 
+ // $session= Session::getInstance(); 
         if($user){
             $session->setFlash('success', "Vous etes maintenant connecte");
            // App::redirect('account.php');
@@ -24,6 +24,7 @@ if(!empty($_POST) && !empty($_POST['username']) && !empty($_POST["password"])){
       }else{
         var_dump($_POST);
 }
+var_dump($_SESSION);
 include "../include/headert.php";
 
 

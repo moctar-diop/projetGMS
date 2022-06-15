@@ -11,6 +11,7 @@ class requette extends Auth{
     }
 
     static function updateProfil($db,$username,$email,$telephone,$pays,$etudes,$id){
+     // $update = date('Y.m.d H:i:s');
         $db->query("UPDATE  user SET username = '$username', email =' $email', telephone =' $telephone',pays ='$pays',niveau_Etudes ='$etudes' WHERE id = $id");
     }
 
@@ -28,6 +29,12 @@ class requette extends Auth{
       //$idu= $db->query("SELECT id FROM user WHERE id = $id")->fetch();
       //var_dump($idu->id);
       $db->query("INSERT INTO message SET objet = ?, message = ?, id_user = ?",[$objet,$message,$id]);
+    }
+
+    static function getMessage($db)
+    {
+      $message = $db->query("SELECT * FROM message")->fetchAll();
+      return $message;
     }
   
 }

@@ -39,6 +39,10 @@ Class Session {
     public function delete($key){
         unset($_SESSION[$key]);
     }
+
+    public function getName(){
+        return isset($_SESSION['auth']->username) ? $_SESSION['auth']->username : 'admin';
+    }
 }
 
 ?>
