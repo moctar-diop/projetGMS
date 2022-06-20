@@ -75,19 +75,13 @@ $session=session::getInstance();
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="../index.php">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto " href="../index.php">Accueil</a></li>
+          <li><a class="nav-link scrollto" href="#formation">Formations</a></li>
+          <li><a class="nav-link scrollto" href="#preinscription">Preinscription</a></li>
           <li><a class="nav-link scrollto " href="teranga/index.php">Teranga Etudes</a></li>
-         <?php if(isset($_SESSION['auth'])): ?>
-          <li><a class="nav-link scrollto" href="logout.php">Logout</a></li>
-          <li class="dropdown"><a href="auth/account.php"><span><?= $session->getName()?></span> <i class="bi bi-chevron-down"></i></a>
-          </li>
-          <?php else : ?>
+          <li><a class="nav-link scrollto" href="#immigration">Immigrations</a></li>
           <li><a href="account/login.php">Login</a></li>
           <li><a href="account/register.php">S'inscrire</a></li>
-
-          <?php endif; ?>
          
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
