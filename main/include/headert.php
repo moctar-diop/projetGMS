@@ -75,7 +75,7 @@ $session=session::getInstance();
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto " href="../index.php">Accueil</a></li>
+          <li><a class="nav-link scrollto " href="index.php">Accueil</a></li>
           <li><a class="nav-link scrollto" href="#formation">Formations</a></li>
           <li><a class="nav-link scrollto" href="#preinscription">Preinscription</a></li>
           <li><a class="nav-link scrollto " href="teranga/teranga.php">Teranga Etudes</a></li>

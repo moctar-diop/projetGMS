@@ -143,7 +143,7 @@ include("../class/session.php");
       <h1>Soyez les  <strong>bienvenus sur</strong></h1>
       <h3 class="badge rounded-pill bg-transparent text-primary">TERANGA-ETUDES</h3>
       <h2>CONSEIL & ACOMPAGNEMENT ETUDES AU SENEGAL</h2>
-      <a href="#about" class="btn-get-started scrollto">VOTRE REUSSITE NOTRE SACERDOCE</a>
+      <a href="#" class="btn-get-started scrollto">VOTRE REUSSITE NOTRE SACERDOCE</a>
     </div>
   </section>
   <!-- End Hero -->
@@ -152,7 +152,7 @@ include("../class/session.php");
       <div class="container">
 
         <div class="section-title">
-          <h2>TERANGA-ETUDES</h2>
+          <h2 class="font-weight-bold">TERANGA-ETUDES</h2>
           <h3>QUI SOMMES NOUS ET QUE POUVONS-NOUS FAIRE POUR VOUS ? <br>
           <br><span>CONSEIL & ACOMPAGNEMENT ETUDES AU SENEGAL</span></h3>
           <p> Génie Management Solution est un cabinet privé de conseil et d’orientation  pédagogique qui offre aux élèves, étudiants et professionnels des services de qualité, adaptés à leurs problématiques liées à leurs formations et métiers. Fort d’une expérience de cinq (05) ans, notre mission consiste à assister les jeunes afin de leurs permettre de monter un bon projet aussi bien pédagogique que professionnel.</p>
@@ -183,10 +183,10 @@ include("../class/session.php");
             QUATRE (04) RAISONS DE NOUS FAIRE CONFIANCE :
             </p>
             <ul class="list-group list-group-light">
-              <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="50px" height="30px"><path d="M224 320c0 17.69 14.33 32 32 32h64c17.67 0 32-14.31 32-32s-14.33-32-32-32h-64C238.3 288 224 302.3 224 320zM267.6 256H352c17.67 0 32-14.31 32-32s-14.33-32-32-32h-80v40C272 240.5 270.3 248.5 267.6 256zM272 160H480c17.67 0 32-14.31 32-32s-14.33-32-32-32h-208.8C271.5 98.66 272 101.3 272 104V160zM320 416c0-17.69-14.33-32-32-32H224c-17.67 0-32 14.31-32 32s14.33 32 32 32h64C305.7 448 320 433.7 320 416zM202.1 355.8C196 345.6 192 333.3 192 320c0-5.766 1.08-11.24 2.51-16.55C157.4 300.6 128 269.9 128 232V159.1C128 151.2 135.2 144 143.1 144S160 151.2 159.1 159.1l0 69.72C159.1 245.2 171.3 271.1 200 271.1C222.1 271.1 240 254.1 240 232v-128C240 81.91 222.1 64 200 64H136.6C103.5 64 72.03 80 52.47 106.8L26.02 143.2C9.107 166.5 0 194.5 0 223.3V312C0 387.1 60.89 448 136 448h32.88C163.4 438.6 160 427.7 160 416C160 388.1 178 364.6 202.1 355.8z"/></svg> Notre agence est composée de consultants qui maitrisent parfaitement leur sujet avec des années d’expérience.</li>
-              <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="50px" height="30px"><path d="M224 320c0 17.69 14.33 32 32 32h64c17.67 0 32-14.31 32-32s-14.33-32-32-32h-64C238.3 288 224 302.3 224 320zM267.6 256H352c17.67 0 32-14.31 32-32s-14.33-32-32-32h-80v40C272 240.5 270.3 248.5 267.6 256zM272 160H480c17.67 0 32-14.31 32-32s-14.33-32-32-32h-208.8C271.5 98.66 272 101.3 272 104V160zM320 416c0-17.69-14.33-32-32-32H224c-17.67 0-32 14.31-32 32s14.33 32 32 32h64C305.7 448 320 433.7 320 416zM202.1 355.8C196 345.6 192 333.3 192 320c0-5.766 1.08-11.24 2.51-16.55C157.4 300.6 128 269.9 128 232V159.1C128 151.2 135.2 144 143.1 144S160 151.2 159.1 159.1l0 69.72C159.1 245.2 171.3 271.1 200 271.1C222.1 271.1 240 254.1 240 232v-128C240 81.91 222.1 64 200 64H136.6C103.5 64 72.03 80 52.47 106.8L26.02 143.2C9.107 166.5 0 194.5 0 223.3V312C0 387.1 60.89 448 136 448h32.88C163.4 438.6 160 427.7 160 416C160 388.1 178 364.6 202.1 355.8z"/></svg>Nos différentes écoles partenaires sont reconnues par la qualité de leurs formations, leurs diplômés sont recherchés par les employeurs.</li>
-              <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="50px" height="30px"><path d="M224 320c0 17.69 14.33 32 32 32h64c17.67 0 32-14.31 32-32s-14.33-32-32-32h-64C238.3 288 224 302.3 224 320zM267.6 256H352c17.67 0 32-14.31 32-32s-14.33-32-32-32h-80v40C272 240.5 270.3 248.5 267.6 256zM272 160H480c17.67 0 32-14.31 32-32s-14.33-32-32-32h-208.8C271.5 98.66 272 101.3 272 104V160zM320 416c0-17.69-14.33-32-32-32H224c-17.67 0-32 14.31-32 32s14.33 32 32 32h64C305.7 448 320 433.7 320 416zM202.1 355.8C196 345.6 192 333.3 192 320c0-5.766 1.08-11.24 2.51-16.55C157.4 300.6 128 269.9 128 232V159.1C128 151.2 135.2 144 143.1 144S160 151.2 159.1 159.1l0 69.72C159.1 245.2 171.3 271.1 200 271.1C222.1 271.1 240 254.1 240 232v-128C240 81.91 222.1 64 200 64H136.6C103.5 64 72.03 80 52.47 106.8L26.02 143.2C9.107 166.5 0 194.5 0 223.3V312C0 387.1 60.89 448 136 448h32.88C163.4 438.6 160 427.7 160 416C160 388.1 178 364.6 202.1 355.8z"/></svg>Possibilité de bénéficier chaque année d’étude d’un (01) mois de stage en entreprise grâce à la politique mise en place par certains de nos partenaires.</li>
-              <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="50px" height="30px"><path d="M224 320c0 17.69 14.33 32 32 32h64c17.67 0 32-14.31 32-32s-14.33-32-32-32h-64C238.3 288 224 302.3 224 320zM267.6 256H352c17.67 0 32-14.31 32-32s-14.33-32-32-32h-80v40C272 240.5 270.3 248.5 267.6 256zM272 160H480c17.67 0 32-14.31 32-32s-14.33-32-32-32h-208.8C271.5 98.66 272 101.3 272 104V160zM320 416c0-17.69-14.33-32-32-32H224c-17.67 0-32 14.31-32 32s14.33 32 32 32h64C305.7 448 320 433.7 320 416zM202.1 355.8C196 345.6 192 333.3 192 320c0-5.766 1.08-11.24 2.51-16.55C157.4 300.6 128 269.9 128 232V159.1C128 151.2 135.2 144 143.1 144S160 151.2 159.1 159.1l0 69.72C159.1 245.2 171.3 271.1 200 271.1C222.1 271.1 240 254.1 240 232v-128C240 81.91 222.1 64 200 64H136.6C103.5 64 72.03 80 52.47 106.8L26.02 143.2C9.107 166.5 0 194.5 0 223.3V312C0 387.1 60.89 448 136 448h32.88C163.4 438.6 160 427.7 160 416C160 388.1 178 364.6 202.1 355.8z"/></svg>La rapidité et la fiabilité de notre procédure</li>
+              <li class="list-group-item"> <img src="../assets/img/icon/check-lg.svg" alt="" srcset="">  Notre agence est composée de consultants qui maitrisent parfaitement leur sujet avec des années d’expérience.</li>
+              <li class="list-group-item"> <img src="../assets/img/icon/check-lg.svg" alt="" srcset=""> Nos différentes écoles partenaires sont reconnues par la qualité de leurs formations, leurs diplômés sont recherchés par les employeurs.</li>
+              <li class="list-group-item"> <img src="../assets/img/icon/check-lg.svg" alt="" srcset=""> Possibilité de bénéficier chaque année d’étude d’un (01) mois de stage en entreprise grâce à la politique mise en place par certains de nos partenaires.</li>
+              <li class="list-group-item"> <img src="../assets/img/icon/check-lg.svg" alt="" srcset=""> La rapidité et la fiabilité de notre procédure</li>
             </ul>
           </div>
           
@@ -295,7 +295,8 @@ include("../class/session.php");
         <div class="row">
           <div class=" col-md-4 col-6 col-6">
             <div class="icon-box bg-light row">
-                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.5em" height="2.5em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 640 512"  style="color: #ffbb2c;"><path d="M623.1 136.9l-282.7-101.2c-13.73-4.91-28.7-4.91-42.43 0L16.05 136.9C6.438 140.4 0 149.6 0 160s6.438 19.65 16.05 23.09L76.07 204.6c-11.89 15.8-20.26 34.16-24.55 53.95C40.05 263.4 32 274.8 32 288c0 9.953 4.814 18.49 11.94 24.36l-24.83 149C17.48 471.1 25 480 34.89 480H93.11c9.887 0 17.41-8.879 15.78-18.63l-24.83-149C91.19 306.5 96 297.1 96 288c0-10.29-5.174-19.03-12.72-24.89c4.252-17.76 12.88-33.82 24.94-47.03l190.6 68.23c13.73 4.91 28.7 4.91 42.43 0l282.7-101.2C633.6 179.6 640 170.4 640 160S633.6 140.4 623.1 136.9zM351.1 314.4C341.7 318.1 330.9 320 320 320c-10.92 0-21.69-1.867-32-5.555L142.8 262.5L128 405.3C128 446.6 213.1 480 320 480c105.1 0 192-33.4 192-74.67l-14.78-142.9L351.1 314.4z"/></svg>
+            <img src="../assets/img/logo/unipro.png" alt="" srcset="" width="95px" height="90px">
+
                   <h3> <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                       UNIPRO
                     </button></h3>
@@ -323,7 +324,7 @@ include("../class/session.php");
           </div>
           <div class=" col-md-4 col-6">
             <div class="icon-box bg-light row">
-            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2em" height="2.5em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 640 512" style="color: #5578ff;"><path d="M623.1 136.9l-282.7-101.2c-13.73-4.91-28.7-4.91-42.43 0L16.05 136.9C6.438 140.4 0 149.6 0 160s6.438 19.65 16.05 23.09L76.07 204.6c-11.89 15.8-20.26 34.16-24.55 53.95C40.05 263.4 32 274.8 32 288c0 9.953 4.814 18.49 11.94 24.36l-24.83 149C17.48 471.1 25 480 34.89 480H93.11c9.887 0 17.41-8.879 15.78-18.63l-24.83-149C91.19 306.5 96 297.1 96 288c0-10.29-5.174-19.03-12.72-24.89c4.252-17.76 12.88-33.82 24.94-47.03l190.6 68.23c13.73 4.91 28.7 4.91 42.43 0l282.7-101.2C633.6 179.6 640 170.4 640 160S633.6 140.4 623.1 136.9zM351.1 314.4C341.7 318.1 330.9 320 320 320c-10.92 0-21.69-1.867-32-5.555L142.8 262.5L128 405.3C128 446.6 213.1 480 320 480c105.1 0 192-33.4 192-74.67l-14.78-142.9L351.1 314.4z"/></svg> 
+            <img src="../assets/img/logo/ensup.png" alt="" srcset="" width="100%" height="90px">
                <h3> <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
                       ENSUP Afrique
                     </button></h3>
@@ -354,7 +355,7 @@ include("../class/session.php");
           </div>
           <div class=" col-md-4 col-6 mt-4 mt-md-0">
             <div class="icon-box bg-light row">
-            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2em" height="2.5em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 640 512"  style="color: #e80368;"><path d="M623.1 136.9l-282.7-101.2c-13.73-4.91-28.7-4.91-42.43 0L16.05 136.9C6.438 140.4 0 149.6 0 160s6.438 19.65 16.05 23.09L76.07 204.6c-11.89 15.8-20.26 34.16-24.55 53.95C40.05 263.4 32 274.8 32 288c0 9.953 4.814 18.49 11.94 24.36l-24.83 149C17.48 471.1 25 480 34.89 480H93.11c9.887 0 17.41-8.879 15.78-18.63l-24.83-149C91.19 306.5 96 297.1 96 288c0-10.29-5.174-19.03-12.72-24.89c4.252-17.76 12.88-33.82 24.94-47.03l190.6 68.23c13.73 4.91 28.7 4.91 42.43 0l282.7-101.2C633.6 179.6 640 170.4 640 160S633.6 140.4 623.1 136.9zM351.1 314.4C341.7 318.1 330.9 320 320 320c-10.92 0-21.69-1.867-32-5.555L142.8 262.5L128 405.3C128 446.6 213.1 480 320 480c105.1 0 192-33.4 192-74.67l-14.78-142.9L351.1 314.4z"/></svg>
+            <img src="../assets/img/logo/hecm.png" alt="" srcset="" width="95px" height="90px">
             <h3> <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
                       HECM/ DAKAR
                     </button></h3>
@@ -384,7 +385,7 @@ include("../class/session.php");
           </div>
           <div class="col-md-4 col-6 mt-4 ">
             <div class="icon-box bg-light row">
-            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2.8em" height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 640 512"  style="color: #e361ff;"><path d="M623.1 136.9l-282.7-101.2c-13.73-4.91-28.7-4.91-42.43 0L16.05 136.9C6.438 140.4 0 149.6 0 160s6.438 19.65 16.05 23.09L76.07 204.6c-11.89 15.8-20.26 34.16-24.55 53.95C40.05 263.4 32 274.8 32 288c0 9.953 4.814 18.49 11.94 24.36l-24.83 149C17.48 471.1 25 480 34.89 480H93.11c9.887 0 17.41-8.879 15.78-18.63l-24.83-149C91.19 306.5 96 297.1 96 288c0-10.29-5.174-19.03-12.72-24.89c4.252-17.76 12.88-33.82 24.94-47.03l190.6 68.23c13.73 4.91 28.7 4.91 42.43 0l282.7-101.2C633.6 179.6 640 170.4 640 160S633.6 140.4 623.1 136.9zM351.1 314.4C341.7 318.1 330.9 320 320 320c-10.92 0-21.69-1.867-32-5.555L142.8 262.5L128 405.3C128 446.6 213.1 480 320 480c105.1 0 192-33.4 192-74.67l-14.78-142.9L351.1 314.4z"/></svg>
+            <img src="../assets/img/logo/ozana.png" alt="" srcset="" width="95px" height="90px">
             <h3> <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
                       Groupe OZANA
                     </button></h3>
@@ -406,7 +407,7 @@ include("../class/session.php");
           </div>
           <div class="col-md-4 col-6 mt-4">
             <div class="icon-box bg-light row">
-            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2.5em" height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 640 512" style="color: #47aeff;"><path d="M623.1 136.9l-282.7-101.2c-13.73-4.91-28.7-4.91-42.43 0L16.05 136.9C6.438 140.4 0 149.6 0 160s6.438 19.65 16.05 23.09L76.07 204.6c-11.89 15.8-20.26 34.16-24.55 53.95C40.05 263.4 32 274.8 32 288c0 9.953 4.814 18.49 11.94 24.36l-24.83 149C17.48 471.1 25 480 34.89 480H93.11c9.887 0 17.41-8.879 15.78-18.63l-24.83-149C91.19 306.5 96 297.1 96 288c0-10.29-5.174-19.03-12.72-24.89c4.252-17.76 12.88-33.82 24.94-47.03l190.6 68.23c13.73 4.91 28.7 4.91 42.43 0l282.7-101.2C633.6 179.6 640 170.4 640 160S633.6 140.4 623.1 136.9zM351.1 314.4C341.7 318.1 330.9 320 320 320c-10.92 0-21.69-1.867-32-5.555L142.8 262.5L128 405.3C128 446.6 213.1 480 320 480c105.1 0 192-33.4 192-74.67l-14.78-142.9L351.1 314.4z"/></svg>
+              <img src="../assets/img/logo/ISMAT.png" alt="" srcset="" width="95px" height="90px">
             <h3> <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
                       ISMAT
                     </button></h3>
@@ -430,7 +431,8 @@ include("../class/session.php");
           </div>
           <div class=" col-md-4 col-6 mt-4">
             <div class="icon-box bg-light row">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" width="2em" height="2.5em" style="color: #1E4F04;"><path d="M623.1 136.9l-282.7-101.2c-13.73-4.91-28.7-4.91-42.43 0L16.05 136.9C6.438 140.4 0 149.6 0 160s6.438 19.65 16.05 23.09L76.07 204.6c-11.89 15.8-20.26 34.16-24.55 53.95C40.05 263.4 32 274.8 32 288c0 9.953 4.814 18.49 11.94 24.36l-24.83 149C17.48 471.1 25 480 34.89 480H93.11c9.887 0 17.41-8.879 15.78-18.63l-24.83-149C91.19 306.5 96 297.1 96 288c0-10.29-5.174-19.03-12.72-24.89c4.252-17.76 12.88-33.82 24.94-47.03l190.6 68.23c13.73 4.91 28.7 4.91 42.43 0l282.7-101.2C633.6 179.6 640 170.4 640 160S633.6 140.4 623.1 136.9zM351.1 314.4C341.7 318.1 330.9 320 320 320c-10.92 0-21.69-1.867-32-5.555L142.8 262.5L128 405.3C128 446.6 213.1 480 320 480c105.1 0 192-33.4 192-74.67l-14.78-142.9L351.1 314.4z"/></svg>
+            <img src="../assets/img/logo/cefas.png" alt="" srcset="" width="95px" height="90px">
+            
             
             <h3> <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
                       CEFAS
